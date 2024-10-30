@@ -82,6 +82,7 @@ export default function Contact() {
         {isLoading && <FormLoading />}
         <div className="flex justify-center items-center min-h-screen">
             <div className="w-96">
+            <h1 className="page-title text-2xl font-bold mb-5">Contact Us</h1>
             <Form {...form}>
             <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
             <FormField
